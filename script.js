@@ -1,8 +1,6 @@
 let num = ''
 
 for (let i = 1; i <= 200; i++) {
-  /*   num = num + i + '<br/>' */
-
   if (i % 4 === 0) {
     document.querySelector('#num').innerHTML += num + 'xxx' + '<br/>'
   }
